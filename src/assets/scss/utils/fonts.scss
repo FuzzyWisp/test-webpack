@@ -1,0 +1,16 @@
+// Fonts here
+// see more: https://github.com/vedees/webpack-template/blob/master/README.md#import-js-files
+
+/* open-sans-regular - latin_cyrillic */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/assets/fonts/open-sans-v17-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
+    src: local('Open Sans Regular'), local('OpenSans-Regular'),
+         url('/assets/fonts/open-sans-v17-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('/assets/fonts/open-sans-v17-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('/assets/fonts/open-sans-v17-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+         url('/assets/fonts/open-sans-v17-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('/assets/fonts/open-sans-v17-latin_cyrillic-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
+  }
